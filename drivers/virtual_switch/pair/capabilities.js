@@ -113,7 +113,7 @@ var devices = {
   },
   "homealarm": {
     "capabilities": [
-      "homealarm_state",
+      "button",
       "onoff",
       "button",
       "alarm_motion",
@@ -121,6 +121,15 @@ var devices = {
     ],
     "defaultCapabilities": [
       "homealarm_state"
+    ]
+  },
+  "garagedoor": {
+    "capabilities": [
+      "alarm_contact",
+      "alarm_generic",
+    ],
+    "defaultCapabilities": [
+      "garagedoor_closed"
     ]
   },
   "thermostat": {
